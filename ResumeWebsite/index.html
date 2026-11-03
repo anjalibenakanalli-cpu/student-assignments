@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
+
 <body>
 
 <header>
@@ -15,23 +16,34 @@
 </header>
 
 <nav>
-    <a href="index.html">Resume</a>
+    <a class="active" href="index.html">Resume</a>
     <a href="biodata.html">Bio-data</a>
 </nav>
 
 <main class="container">
 
-    <section>
-        <h2>1. Personal Profile</h2>
-        <h3>Anjali</h3>
-        <p><strong>Email:</strong> anjalibenakanalli@gmail.com</p>
-        <p><strong>Phone:</strong> 9353199663</p>
-        <p><strong>Location:</strong> Kalaburagi, Karnataka</p>
-        <p><strong>Career Field:</strong> Computer Science Engineering</p>
-    </section>
+    <div class="profile">
+
+        <div class="profile-photo">
+            <img src="profile.jpg" alt="My Profile Photo">
+        </div>
+
+        <div class="profile-details">
+            <h2>1. Personal Profile</h2>
+
+            <h3>Your Full Name</h3>
+
+            <p><strong>Email:</strong> yourname@gmail.com</p>
+            <p><strong>Phone:</strong> Your Phone Number</p>
+            <p><strong>Location:</strong> Your City, Karnataka</p>
+            <p><strong>Career Field:</strong> Computer Science Engineering</p>
+        </div>
+
+    </div>
 
     <section>
         <h2>2. Career Objective</h2>
+
         <p>
             To obtain an opportunity where I can apply my technical knowledge,
             improve my programming skills, learn new technologies, and
@@ -41,6 +53,7 @@
 
     <section>
         <h2>3. Educational Qualifications</h2>
+
         <table>
             <tr>
                 <th>Course</th>
@@ -48,22 +61,25 @@
                 <th>Year</th>
                 <th>Result</th>
             </tr>
+
             <tr>
-                <td>B.E.</td>
-                <td>KLEIT</td>
-                <td>2024–2028</td>
+                <td>B.E. / B.Tech</td>
+                <td>Your Engineering College</td>
+                <td>2023–2027</td>
                 <td>Currently Studying</td>
             </tr>
+
             <tr>
                 <td>PUC / 12th</td>
-                <td>Vishwabharati</td>
-                <td>2024</td>
+                <td>Your PU College</td>
+                <td>2023</td>
                 <td>Completed</td>
             </tr>
+
             <tr>
                 <td>SSLC / 10th</td>
-                <td>GHPS Bandarwad</td>
-                <td>2022</td>
+                <td>Your School</td>
+                <td>2021</td>
                 <td>Completed</td>
             </tr>
         </table>
@@ -71,20 +87,23 @@
 
     <section>
         <h2>4. Technical Skills</h2>
-        <ul>
-            <li>HTML and CSS</li>
-            <li>JavaScript and jQuery</li>
-            <li>C Programming</li>
-            <li>Python Programming</li>
-            <li>MySQL Database</li>
-            <li>Basic PHP Programming</li>
-        </ul>
+
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>C Programming</span>
+            <span>MySQL</span>
+            <span>PHP</span>
+        </div>
     </section>
 
     <section>
         <h2>5. Academic Projects</h2>
 
         <h3>Project 1: Online Payment Transaction System</h3>
+
         <p>
             Developed a basic web application to manage user registration,
             login, online transactions, and transaction history using
@@ -92,6 +111,7 @@
         </p>
 
         <h3>Project 2: Student Registration Website</h3>
+
         <p>
             Created a registration form to collect student information
             and display the submitted details on a webpage.
@@ -100,24 +120,26 @@
 
     <section>
         <h2>6. Certifications</h2>
+
         <ul>
-     
-            <li>Certificate in Python Programming </li>
-            <li>Certificate in Artificial Intelligence</li>
+            <li>Add your completed certification.</li>
+            <li>Add your completed technical courses.</li>
         </ul>
     </section>
 
     <section>
         <h2>7. Achievements</h2>
+
         <ul>
             <li>Participated in academic activities and seminars.</li>
             <li>Completed practical laboratory assignments.</li>
-            
+            <li>Add your actual awards or achievements.</li>
         </ul>
     </section>
 
     <section>
         <h2>8. Strengths</h2>
+
         <ul>
             <li>Quick learner</li>
             <li>Teamwork and cooperation</li>
@@ -128,15 +150,17 @@
 
     <section>
         <h2>9. Languages Known</h2>
+
         <ul>
             <li>Kannada</li>
             <li>English</li>
-           
+            <li>Add other languages you know</li>
         </ul>
     </section>
 
     <section>
         <h2>10. Hobbies and Interests</h2>
+
         <ul>
             <li>Reading books</li>
             <li>Listening to music</li>
@@ -147,12 +171,14 @@
 
     <section>
         <h2>11. Declaration</h2>
+
         <p>
             I hereby declare that the information provided above is true
             and correct to the best of my knowledge.
         </p>
-        <p><strong>Place:</strong> hubli</p>
-        <p><strong>Date:</strong> 03/11/2026</p>
+
+        <p><strong>Place:</strong> Your Place</p>
+        <p><strong>Date:</strong> DD/MM/YYYY</p>
     </section>
 
     <button id="printButton">Print Resume</button>
@@ -160,7 +186,7 @@
 </main>
 
 <footer>
-    <p>Copyright &copy; 2026 My Resume Website</p>
+    <p>© 2026 My Resume Website</p>
 </footer>
 
 <script>
