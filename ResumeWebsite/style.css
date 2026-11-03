@@ -1,132 +1,133 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #eef3f8;
-    color: #333;
-    line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio-data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-header {
-    background-color: #176b87;
-    color: white;
-    text-align: center;
-    padding: 25px;
-}
+<body>
 
-header h1 {
-    margin-bottom: 5px;
-}
+<header>
+    <h1>MY BIO-DATA</h1>
+    <p>Personal and Educational Information</p>
+</header>
 
-nav {
-    background-color: #053b50;
-    text-align: center;
-    padding: 15px;
-}
+<nav>
+    <a href="index.html">Resume</a>
+    <a class="active" href="biodata.html">Bio-data</a>
+</nav>
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-}
+<main class="container">
 
-nav a:hover {
-    color: #64ccc5;
-}
+    <section>
+        <h2>1. Personal Information</h2>
 
-.container {
-    max-width: 850px;
-    margin: 25px auto;
-    padding: 25px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #ccc;
-}
+        <p><strong>Full Name:</strong> Your Full Name</p>
+        <p><strong>Date of Birth:</strong> DD/MM/YYYY</p>
+        <p><strong>Gender:</strong> Your Gender</p>
+        <p><strong>Nationality:</strong> Indian</p>
+        <p><strong>Religion:</strong> Optional</p>
+        <p><strong>Marital Status:</strong> Optional</p>
+        <p><strong>Blood Group:</strong> Optional</p>
+    </section>
 
-section {
-    margin-bottom: 25px;
-}
+    <section>
+        <h2>2. Contact Information</h2>
 
-h2 {
-    color: #176b87;
-    border-bottom: 2px solid #64ccc5;
-    padding-bottom: 5px;
-}
+        <p><strong>Mobile Number:</strong> Your Phone Number</p>
+        <p><strong>Email:</strong> yourname@gmail.com</p>
+        <p><strong>Permanent Address:</strong> Your Address</p>
+        <p><strong>Present Address:</strong> Your Address</p>
+        <p><strong>District:</strong> Your District</p>
+        <p><strong>State:</strong> Karnataka</p>
+        <p><strong>Country:</strong> India</p>
+        <p><strong>PIN Code:</strong> Your PIN Code</p>
+    </section>
 
-h3 {
-    color: #053b50;
-}
+    <section>
+        <h2>3. Family Information</h2>
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-}
+        <p><strong>Father's Name:</strong> Father's Name</p>
+        <p><strong>Father's Occupation:</strong> Occupation</p>
+        <p><strong>Mother's Name:</strong> Mother's Name</p>
+        <p><strong>Mother's Occupation:</strong> Occupation</p>
+        <p><strong>Number of Siblings:</strong> Number</p>
+        <p><strong>Family Type:</strong> Nuclear / Joint</p>
+    </section>
 
-th, td {
-    border: 1px solid #aaa;
-    padding: 10px;
-    text-align: left;
-}
+    <section>
+        <h2>4. Educational Details</h2>
 
-th {
-    background-color: #176b87;
-    color: white;
-}
+        <table>
+            <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+                <th>Year of Passing</th>
+            </tr>
 
-li {
-    margin-bottom: 7px;
-}
+            <tr>
+                <td>SSLC</td>
+                <td>Your School</td>
+                <td>Year</td>
+            </tr>
 
-button, .button {
-    display: inline-block;
-    background-color: #176b87;
-    color: white;
-    padding: 11px 18px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-}
+            <tr>
+                <td>PUC</td>
+                <td>Your PU College</td>
+                <td>Year</td>
+            </tr>
 
-button:hover, .button:hover {
-    background-color: #053b50;
-}
+            <tr>
+                <td>B.E. / B.Tech</td>
+                <td>Your Engineering College</td>
+                <td>Currently Studying</td>
+            </tr>
+        </table>
+    </section>
 
-footer {
-    background-color: #053b50;
-    color: white;
-    text-align: center;
-    padding: 12px;
-}
+    <section>
+        <h2>5. Languages Known</h2>
 
-@media (max-width: 600px) {
-    .container {
-        margin: 10px;
-        padding: 15px;
-    }
+        <ul>
+            <li>Kannada</li>
+            <li>English</li>
+            <li>Other languages, if applicable</li>
+        </ul>
+    </section>
 
-    nav a {
-        margin: 0 8px;
-    }
+    <section>
+        <h2>6. Hobbies and Interests</h2>
 
-    table {
-        font-size: 13px;
-    }
-}
+        <ul>
+            <li>Reading</li>
+            <li>Listening to music</li>
+            <li>Learning new skills</li>
+            <li>Using computers and technology</li>
+        </ul>
+    </section>
 
-@media print {
-    nav, footer, button, .button {
-        display: none;
-    }
+    <section>
+        <h2>7. Declaration</h2>
 
-    body {
-        background-color: white;
-    }
+        <p>
+            I hereby declare that the information provided in this
+            bio-data is true and correct to the best of my knowledge.
+        </p>
 
-    .container {
-        box-shadow: none;
-        margin: 0;
-        max-width: 100%;
-    }
-}
+        <p><strong>Place:</strong> Your Place</p>
+        <p><strong>Date:</strong> DD/MM/YYYY</p>
+        <p><strong>Signature:</strong> Your Name</p>
+    </section>
+
+    <a class="button" href="index.html">← Back to Resume</a>
+
+</main>
+
+<footer>
+    <p>© 2026 My Bio-data Website</p>
+</footer>
+
+</body>
+</html>
